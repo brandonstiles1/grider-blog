@@ -3,8 +3,9 @@ import PostCreate from './PostCreate';
 import PostList from './PostList';
 
 const App = () => {
+  console.log('Hi Here');
   return (
-    <div className='container'>
+    <div className="container">
       <h1>Create Post</h1>
       <PostCreate />
       <hr />
@@ -12,6 +13,6 @@ const App = () => {
       <PostList />
     </div>
   );
-}
+};
 
 export default App;
