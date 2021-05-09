@@ -4,6 +4,7 @@ import PostList from './PostList';
 
 const App = () => {
   console.log('Hi Here');
+  console.log('Hi Here');
   return (
     <div className="container">
       <h1>Create Post</h1>
